@@ -9,7 +9,7 @@ const Login = ({ setFlag }) => {
     e.preventDefault();
   };
   return (
-    <div className="flex flex-col justify-start  min-h-screen">
+    <div className="flex flex-col justify-start  ">
       <div className="max-w-md w-full px-6 py-12  rounded-lg ">
         <h1 className="text-3xl font-semibold   mb-3">Welcome Back!</h1>
         <p className="text-[#777777] text-sm mb-4">

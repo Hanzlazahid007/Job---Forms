@@ -1,15 +1,16 @@
 import React, { useState } from "react";
-import Sidebar from "@/Components/Sidebar";
-import Login from "@/Components/Login";
+
+import Profemp from "@/Components/Profemp";
+import Profbar3 from "@/Components/Profbar3";
 
 const First = () => {
   return (
     <div>
-      <Sidebar />
+      <Profbar3 />
       <div>
-        <div className="main absolute top-[20%] left-[40%]">
+        <div className="main absolute top-[5%] left-[32%]">
           <div>
-            <Login />
+            <Profemp />
           </div>
         </div>
       </div>

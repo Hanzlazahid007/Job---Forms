@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import Image from "next/image";
 
-const Sidebar3 = ({ flag }) => {
+const Freshsidebar = ({ flag }) => {
   return (
     <div>
-      <div className="h-[105vh] w-1/4  bg-[#2668E8] ">
+      <div className="h-[100vh] w-1/4  bg-[#2668E8] ">
         <div className="pl-5 pt-5">
           <div className="flex flex-col  ">
             <h1 className="text-white font-semibold text-2xl">Hire On</h1>
@@ -20,7 +20,7 @@ const Sidebar3 = ({ flag }) => {
                 </p>
               </div>
             </div>
-            <Image
+            {/* <Image
               src="/Vector 3.png"
               height={3}
               width={1}
@@ -38,10 +38,7 @@ const Sidebar3 = ({ flag }) => {
                   Lorem ipsum dolor sit amet.
                 </p>
               </div>
-            </div>
-            <div className="ml-11 mt-4 mb-2 text-white">
-              <h1>Recruiter Profile</h1>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
@@ -49,4 +46,4 @@ const Sidebar3 = ({ flag }) => {
   );
 };
 
-export default Sidebar3;
+export default Freshsidebar;

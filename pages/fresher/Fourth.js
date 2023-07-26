@@ -1,15 +1,17 @@
 import React, { useState } from "react";
 import Sidebar from "@/Components/Sidebar";
-import Login from "@/Components/Login";
+
+import Freshother from "@/Components/Freshother";
+import Freshsidebar4 from "@/Components/Freshsidebar4";
 
 const First = () => {
   return (
     <div>
-      <Sidebar />
+      <Freshsidebar4 />
       <div>
-        <div className="main absolute top-[20%] left-[40%]">
+        <div className="main absolute top-[20%] left-[32%]">
           <div>
-            <Login />
+            <Freshother />
           </div>
         </div>
       </div>

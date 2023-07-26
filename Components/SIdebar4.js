@@ -4,7 +4,7 @@ import Image from "next/image";
 const Sidebar4 = ({ flag }) => {
   return (
     <div>
-      <div className="h-[160vh] w-1/4  bg-[#2668E8] ">
+      <div className="h-[157vh] w-1/4  bg-[#2668E8] ">
         <div className="pl-5 pt-5">
           <div className="flex flex-col  ">
             <h1 className="text-white font-semibold text-2xl">Hire On</h1>
