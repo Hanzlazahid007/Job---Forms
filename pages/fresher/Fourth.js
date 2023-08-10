@@ -9,7 +9,7 @@ const First = () => {
     <div>
       <Freshsidebar4 />
       <div>
-        <div className="main absolute top-[20%] left-[32%]">
+        <div className="main xl:absolute xl:top-[20%] xl:left-[32%]">
           <div>
             <Freshother />
           </div>

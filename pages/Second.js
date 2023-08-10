@@ -8,7 +8,7 @@ const Second = () => {
     <div>
       <Sidebar2 />
       <div>
-        <div className="main absolute top-[8%] left-[30%]">
+        <div className="main xl:absolute xl:top-[8%] xl:left-[30%]">
           <div>
             <CompanyProfile />{" "}
           </div>

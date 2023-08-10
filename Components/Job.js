@@ -9,14 +9,14 @@ const Job = () => {
     e.preventDefault();
   };
   return (
-    <div>
+    <div className="flex justify-center mt-6 xl:mt-0">
       <form onSubmit={HandleSubmit}>
         <h1 className="text-2xl font-semibold">Job Post</h1>
         <p className="text-sm text-[#777777]">
           {" "}
           please provide required information to log in.
         </p>
-        <div className="mt-4 flex justify-between">
+        <div className="mt-4 xl:flex xl:justify-between">
           <div className="mr-10">
             <label className="block mb-6">
               <span className="text-sm text-[#777777]">Job tittle</span>
@@ -26,7 +26,10 @@ const Job = () => {
                 required
                 className="
             block
-            w-96
+            xl:w-96
+            w-[16rem]
+            xl:mb-0
+            -mb-4
             mt-1
              p-2 bg-[#B4C7ED0D] border-[#2668E826] border-2
             rounded-md"
@@ -47,9 +50,13 @@ const Job = () => {
                 required
                 className="
             block
-            w-96
+            xl:w-96
+            w-[16rem]
+            
             mt-1
-            border-gray-300
+             xl:mb-0
+            -mb-4
+                
             rounded-md
 
              p-2 bg-[#B4C7ED0D] border-[#2668E826] border-2
@@ -59,8 +66,8 @@ const Job = () => {
             </label>
           </div>
         </div>
-        <div className="-mt-4 flex justify-between">
-          <div className="mr-10">
+        <div className="xl:-mt-4 xl:flex xl:justify-between">
+          <div className="xl:mr-10">
             <label className="block mb-6">
               <span className="text-sm text-[#777777]">Job Type</span>
 
@@ -69,8 +76,11 @@ const Job = () => {
                 required
                 className="
             block
-            w-96
+            xl:w-96
+            w-[16rem]
             mt-1
+             xl:mb-0
+            -mb-4
              p-2 bg-[#B4C7ED0D] border-[#2668E826] border-2
             rounded-md"
               >
@@ -90,9 +100,12 @@ const Job = () => {
                 required
                 className="
             block
-            w-96
+            xl:w-96
+            w-[16rem]
+             xl:mb-0
+            -mb-4
             mt-1
-            border-gray-300
+                
             rounded-md
 
              p-2 bg-[#B4C7ED0D] border-[#2668E826] border-2
@@ -102,7 +115,7 @@ const Job = () => {
             </label>
           </div>
         </div>
-        <div className="-mt-4 flex justify-between">
+        <div className="xl:-mt-4 xl:flex xl:justify-between">
           <div>
             <label className="block mb-6">
               <span className="text-sm text-[#777777]">Experience</span>
@@ -112,9 +125,12 @@ const Job = () => {
                 required
                 className="
             block
-            w-96
+            xl:w-96
+            w-[16rem]
+             xl:mb-0
+            -mb-4
             mt-1
-            border-gray-300
+                
             rounded-md
 
              p-2 bg-[#B4C7ED0D] border-[#2668E826] border-2
@@ -132,9 +148,12 @@ const Job = () => {
                 name="name"
                 className="
             block
-            w-96
+            xl:w-96
+            w-[16rem]
+             xl:mb-0
+            -mb-4
             mt-1
-            border-gray-300
+                
             rounded-md
 
              p-2 bg-[#B4C7ED0D] border-[#2668E826] border-2
@@ -144,7 +163,7 @@ const Job = () => {
             </label>
           </div>
         </div>
-        <div className="-mt-4 flex justify-between">
+        <div className="xl:-mt-4 xl:flex xl:justify-between">
           <div>
             <label className="block mb-6">
               <span className="text-sm text-[#777777]">Gender</span>
@@ -154,9 +173,12 @@ const Job = () => {
                 required
                 className="
             block
-            w-96
+            xl:w-96
+            w-[16rem]
+             xl:mb-0
+            -mb-4
             mt-1
-            border-gray-300
+                
             rounded-md
 
              p-2 bg-[#B4C7ED0D] border-[#2668E826] border-2
@@ -165,7 +187,7 @@ const Job = () => {
               />
             </label>
           </div>
-          <div className="ml-12">
+          <div className="xl:ml-12">
             <label className="block mb-6">
               <span className="text-sm text-[#777777]">JOb description</span>
 
@@ -174,7 +196,10 @@ const Job = () => {
                 required
                 className="
             block
-            w-96
+            xl:w-96
+            w-[16rem]
+             xl:mb-0
+            -mb-4
             mt-1
              p-2 bg-[#B4C7ED0D] border-[#2668E826] border-2
             rounded-md"
@@ -187,7 +212,7 @@ const Job = () => {
             </label>
           </div>
         </div>
-        <div className="-mt-4 flex justify-between">
+        <div className="xl:-mt-4 xl:flex xl:justify-between">
           <div>
             <label className="block mb-6">
               <span className="text-sm text-[#777777]">Location</span>
@@ -197,9 +222,12 @@ const Job = () => {
                 required
                 className="
             block
-            w-96
+            xl:w-96
+            w-[16rem]
+             xl:mb-0
+            -mb-4
             mt-1
-            border-gray-300
+                
             rounded-md
 
              p-2 bg-[#B4C7ED0D] border-[#2668E826] border-2
@@ -217,9 +245,12 @@ const Job = () => {
                 name="name"
                 className="
             block
-            w-96
+            xl:w-96
+            w-[16rem]
+             xl:mb-0
+            -mb-4
             mt-1
-            border-gray-300
+                
             rounded-md
 
              p-2 bg-[#B4C7ED0D] border-[#2668E826] border-2
@@ -238,9 +269,12 @@ const Job = () => {
               name="name"
               className="
             block
-            w-[51rem]
+            xl:w-[51rem]
+            w-[16rem]
+             xl:mb-0
+            -mb-4
             mt-1
-            border-gray-300
+                
             rounded-md
 
              p-2 bg-[#B4C7ED0D] border-[#2668E826] border-2
@@ -249,7 +283,7 @@ const Job = () => {
             />
           </label>
         </div>
-        <div className="-mt-4 flex justify-between">
+        <div className="xl:-mt-4 xl:flex xl:justify-between">
           <div>
             <label className="block mb-6">
               <span className="text-sm text-[#777777]">Job benefits</span>
@@ -259,9 +293,12 @@ const Job = () => {
                 required
                 className="
             block
-            w-96
+            xl:w-96
+            w-[16rem]
+             xl:mb-0
+            -mb-4
             mt-1
-            border-gray-300
+                
             rounded-md
 
              p-2 bg-[#B4C7ED0D] border-[#2668E826] border-2
@@ -281,9 +318,12 @@ const Job = () => {
                 required
                 className="
             block
-            w-96
+            xl:w-96
+            w-[16rem]
+             xl:mb-0
+            -mb-4
             mt-1
-            border-gray-300
+                
             rounded-md
 
              p-2 bg-[#B4C7ED0D] border-[#2668E826] border-2
@@ -293,7 +333,7 @@ const Job = () => {
             </label>
           </div>
         </div>
-        <div className="-mt-4 flex justify-between">
+        <div className="xl:-mt-4 xl:flex xl:justify-between">
           <div>
             <label className="block mb-6">
               <span className="text-sm text-[#777777]">Working days</span>
@@ -303,9 +343,12 @@ const Job = () => {
                 required
                 className="
             block
-            w-96
+            xl:w-96
+            w-[16rem]
+             xl:mb-0
+            -mb-4
             mt-1
-            border-gray-300
+                
             rounded-md
 
              p-2 bg-[#B4C7ED0D] border-[#2668E826] border-2
@@ -323,9 +366,12 @@ const Job = () => {
                 required
                 className="
             block
-            w-96
+            xl:w-96
+            w-[16rem]
+             xl:mb-0
+            -mb-4
             mt-1
-            border-gray-300
+                
             rounded-md
 
              p-2 bg-[#B4C7ED0D] border-[#2668E826] border-2
@@ -335,7 +381,7 @@ const Job = () => {
             </label>
           </div>
         </div>
-        <div className="-mt-4 flex justify-between">
+        <div className="xl:-mt-4 xl:flex xl:justify-between">
           <div>
             <label className="block mb-6">
               <span className="text-sm text-[#777777]">Job Skills</span>
@@ -345,9 +391,12 @@ const Job = () => {
                 required
                 className="
             block
-            w-96
+            xl:w-96
+            w-[16rem]
+             xl:mb-0
+            -mb-4
             mt-1
-            border-gray-300
+                
             rounded-md
 
              p-2 bg-[#B4C7ED0D] border-[#2668E826] border-2
@@ -365,9 +414,12 @@ const Job = () => {
                 name="name"
                 className="
             block
-            w-96
+            xl:w-96
+            w-[16rem]
+             xl:mb-0
+            mb-6
             mt-1
-            border-gray-300
+                
             rounded-md
 
              p-2 bg-[#B4C7ED0D] border-[#2668E826] border-2
@@ -379,7 +431,7 @@ const Job = () => {
         </div>
         <button
           type="submit"
-          className="w-40 mt-1 mb-10 flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+          className="w-32 m-auto xl:m-0 mt-1 mb-10 flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
         >
           Continue
         </button>

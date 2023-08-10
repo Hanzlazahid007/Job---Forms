@@ -7,7 +7,7 @@ const First = () => {
     <div>
       <Sidebar />
       <div>
-        <div className="main absolute top-[20%] left-[40%]">
+        <div className="main xl:absolute xl:top-[20%] xl:left-[40%]">
           <div>
             <Login />
           </div>

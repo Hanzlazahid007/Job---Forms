@@ -8,15 +8,15 @@ const Profile = () => {
     e.preventDefault();
   };
   return (
-    <div>
+    <div className="flex justify-center mt-6 xl:mt-0 ">
       <form onSubmit={HandleSubmit}>
         <h1 className="text-2xl font-semibold">Recruiter Profile</h1>
         <p className="text-sm text-[#777777]">
           {" "}
           please provide required information to log in.
         </p>
-        <div className="mt-4 flex justify-between">
-          <div className="mr-10">
+        <div className="mt-4 xl:flex xl:justify-between">
+          <div className="xl:mr-10">
             <label className="block mb-6">
               <span className="text-sm text-[#777777]">Full Name</span>
 
@@ -25,7 +25,10 @@ const Profile = () => {
                 required
                 className="
             block
-            w-96
+            xl:w-96
+            w-[15.9rem] 
+            xl:mb-0
+            -mb-4
             mt-1
              p-2 bg-[#B4C7ED0D] border-[#2668E826] border-2
             rounded-md"
@@ -46,9 +49,11 @@ const Profile = () => {
                 name="name"
                 className="
             block
-            w-96
+            xl:w-96
             mt-1
-            border-gray-300
+            xl:mb-0
+            -mb-4
+                
             rounded-md
 
              p-2 bg-[#B4C7ED0D] border-[#2668E826] border-2
@@ -58,7 +63,7 @@ const Profile = () => {
             </label>
           </div>
         </div>
-        <div className="-mt-3 flex justify-between">
+        <div className="xl:-mt-3 xl:flex xl:justify-between">
           <div>
             <label className="block mb-6">
               <span className="text-sm text-[#777777]">
@@ -70,9 +75,10 @@ const Profile = () => {
                 required
                 className="
             block
-            w-96
+            xl:w-96
             mt-1
-            border-gray-300
+                xl:mb-0
+            -mb-4
             rounded-md
 
              p-2 bg-[#B4C7ED0D] border-[#2668E826] border-2
@@ -90,9 +96,11 @@ const Profile = () => {
                 required
                 className="
             block
-            w-96
+            xl:w-96
+            
             mt-1
-            border-gray-300
+                xl:mb-0
+            -mb-4
             rounded-md
 
              p-2 bg-[#B4C7ED0D] border-[#2668E826] border-2
@@ -104,8 +112,8 @@ const Profile = () => {
         </div>
 
         {/* =================== */}
-        <div className="-mt-4 flex justify-between">
-          <div className="mr-10">
+        <div className="xl:-mt-4 xl:flex xl:justify-between">
+          <div className="xl:mr-10">
             <label className="block mb-6">
               <span className="text-sm text-[#777777]">Gender</span>
 
@@ -114,7 +122,10 @@ const Profile = () => {
                 required
                 className="
             block
-            w-96
+            xl:w-96
+            w-[15.9rem]
+            xl:mb-0
+            -mb-4
             mt-1
              p-2 bg-[#B4C7ED0D] border-[#2668E826] border-2
             rounded-md"
@@ -135,9 +146,11 @@ const Profile = () => {
                 required
                 className="
             block
-            w-96
+            xl:w-96
             mt-1
-            border-gray-300
+            xl:mb-0
+            -mb-4
+                
             rounded-md
 
              p-2 bg-[#B4C7ED0D] border-[#2668E826] border-2
@@ -147,8 +160,8 @@ const Profile = () => {
             </label>
           </div>
         </div>
-        <div className="-mt-4 flex justify-between">
-          <div className="mr-10">
+        <div className="xl:-mt-4 xl:flex xl:justify-between">
+          <div className="xl:mr-10">
             <label className="block mb-6">
               <span className="text-sm text-[#777777]">Language</span>
 
@@ -157,12 +170,15 @@ const Profile = () => {
                 required
                 className="
             block
-            w-96
+            xl:w-96
+            w-[15.9rem]
             mt-1
+            xl:mb-0
+            -mb-4
              p-2 bg-[#B4C7ED0D] border-[#2668E826] border-2
             rounded-md"
               >
-                <option value="cake">Technology</option>
+                <option value="cake">English</option>
                 <option value="cat"></option>
                 <option value="meme"></option>
                 <option value="zoom"></option>
@@ -178,9 +194,11 @@ const Profile = () => {
                 required
                 className="
             block
-            w-96
+            xl:w-96
             mt-1
-            border-gray-300
+            xl:mb-0
+            -mb-4
+                
             rounded-md
 
              p-2 bg-[#B4C7ED0D] border-[#2668E826] border-2
@@ -190,7 +208,7 @@ const Profile = () => {
             </label>
           </div>
         </div>
-        <div className="-mt-3 flex justify-between">
+        <div className="xl:-mt-3 xl:flex xl:justify-between">
           <div>
             <label className="block mb-6">
               <span className="text-sm text-[#777777]">Experience</span>
@@ -200,9 +218,10 @@ const Profile = () => {
                 required
                 className="
             block
-            w-[51rem]
-            mt-1
-            border-gray-300
+            xl:w-[51rem]
+            mt-1xl:mb-0
+            mb-6
+                
             rounded-md
 
              p-2 bg-[#B4C7ED0D] border-[#2668E826] border-2
@@ -214,7 +233,7 @@ const Profile = () => {
         </div>
         <button
           type="submit"
-          className="w-40 mt-1 mb-10 flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+          className="w-32 m-auto xl:m-0 mt-1 mb-10 flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
         >
           Continue
         </button>

@@ -9,14 +9,14 @@ const CompanyProfile = () => {
     e.preventDefault();
   };
   return (
-    <div>
+    <div className="flex justify-center mt-6 xl:mt-0 ">
       <form onSubmit={HandleSubmit}>
         <h1 className="text-2xl font-semibold">Company Profile</h1>
         <p className="text-sm text-[#777777]">
           {" "}
           please provide required information to log in.
         </p>
-        <div className="mt-4 flex justify-between">
+        <div className="mt-4  xl:flex xl:justify-between">
           <div>
             <label className="block mb-6">
               <span className="text-sm text-[#777777]">Company Name</span>
@@ -26,9 +26,10 @@ const CompanyProfile = () => {
                 required
                 className="
             block
-            w-96
+            xl:w-96
             mt-1
-            border-gray-300
+            -mb-4
+            xl:mb-0
             rounded-md
 
              p-2 bg-[#B4C7ED0D] border-[#2668E826] border-2
@@ -37,7 +38,7 @@ const CompanyProfile = () => {
               />
             </label>
           </div>
-          <div className="ml-12">
+          <div className="">
             <label className="block mb-6">
               <span className="text-sm text-[#777777]">Company Name</span>
 
@@ -46,7 +47,10 @@ const CompanyProfile = () => {
                 required
                 className="
             block
-            w-96
+            xl:w-96
+            w-[17.7rem]
+            -mb-4
+            xl:mb-0
             mt-1
              p-2 bg-[#B4C7ED0D] border-[#2668E826] border-2
             rounded-md"
@@ -59,7 +63,7 @@ const CompanyProfile = () => {
             </label>
           </div>
         </div>
-        <div className="-mt-3 flex justify-between">
+        <div className="xl:-mt-3 xl:flex xl:justify-between">
           <div>
             <label className="block mb-6">
               <span className="text-sm text-[#777777]">
@@ -71,9 +75,11 @@ const CompanyProfile = () => {
                 name="name"
                 className="
             block
-            w-96
+            xl:w-96
             mt-1
-            border-gray-300
+            -mb-4
+            xl:mb-0
+             
             rounded-md
 
              p-2 bg-[#B4C7ED0D] border-[#2668E826] border-2
@@ -91,9 +97,11 @@ const CompanyProfile = () => {
                 required
                 className="
             block
-            w-96
+            xl:w-96
             mt-1
-            border-gray-300
+            -mb-4
+            xl:mb-0
+             
             rounded-md
 
              p-2 bg-[#B4C7ED0D] border-[#2668E826] border-2
@@ -103,7 +111,7 @@ const CompanyProfile = () => {
             </label>
           </div>
         </div>
-        <div className="-mt-3 flex justify-between">
+        <div className="xl:-mt-3 xl:flex xl:justify-between">
           <div>
             <label className="block mb-6">
               <span className="text-sm text-[#777777]">Since</span>
@@ -113,9 +121,11 @@ const CompanyProfile = () => {
                 required
                 className="
             block
-            w-96
+            xl:w-96
             mt-1
-            border-gray-300
+            -mb-4
+            xl:mb-0
+             
             rounded-md
 
              p-2 bg-[#B4C7ED0D] border-[#2668E826] border-2
@@ -124,7 +134,7 @@ const CompanyProfile = () => {
               />
             </label>
           </div>
-          <div className="ml-12">
+          <div className="xl:ml-12">
             <label className="block mb-6">
               <span className="text-sm text-[#777777]">Company Team size</span>
 
@@ -133,7 +143,10 @@ const CompanyProfile = () => {
                 required
                 className="
             block
-            w-96
+            xl:w-96
+            w-[17.7rem]
+            -mb-4
+            xl:mb-0
             mt-1
              p-2 bg-[#B4C7ED0D] border-[#2668E826] border-2
             rounded-md"
@@ -148,7 +161,7 @@ const CompanyProfile = () => {
         </div>
 
         {/* =================== */}
-        <div className="-mt-3 flex justify-between">
+        <div className="xl:-mt-3 xl:flex xl:justify-between">
           <div>
             <label className="block mb-6">
               <span className="text-sm text-[#777777]">Company Web Link</span>
@@ -158,9 +171,10 @@ const CompanyProfile = () => {
                 name="name"
                 className="
             block
-            w-96
+            xl:w-96
             mt-1
-            
+            -mb-4
+            xl:mb-0
             rounded-md
 
              p-2 bg-[#B4C7ED0D] border-[#2668E826] border-2
@@ -179,7 +193,9 @@ const CompanyProfile = () => {
                 type="file"
                 className="
             block
-            w-96
+            xl:w-96
+            -mb-4
+            xl:mb-0
             mt-1
             rounded-md
             file:bg-blue-600
@@ -194,7 +210,7 @@ const CompanyProfile = () => {
         </div>
 
         {/* =============================== */}
-        <div className="-mt-3 flex justify-between">
+        <div className="xl:-mt-3 xl:flex xl:justify-between">
           {" "}
           <div>
             <label htmlFor="inputFile" class="block mb-6">
@@ -208,7 +224,9 @@ const CompanyProfile = () => {
                 type="file"
                 className="
             block
-            w-96
+            -mb-4
+            xl:mb-0
+            xl:w-96
             mt-1
             rounded-md
             file:bg-blue-600
@@ -230,7 +248,9 @@ const CompanyProfile = () => {
                 type="file"
                 className="
             block
-            w-96
+            xl:w-96
+            -mb-4
+            xl:mb-0
             mt-1
             rounded-md
             file:bg-blue-600
@@ -243,7 +263,7 @@ const CompanyProfile = () => {
             </label>
           </div>
         </div>
-        <div className="-mt-3 flex justify-between">
+        <div className="xl:-mt-3 xl:flex xl:justify-between">
           <div>
             <label className="block mb-6">
               <span className="text-sm text-[#777777]">Company About</span>
@@ -252,8 +272,10 @@ const CompanyProfile = () => {
                 name="name"
                 className="
             block
-            w-96
+            xl:w-96
             mt-1
+            mb-6
+            xl:mb-0
             
             rounded-md
 
@@ -266,7 +288,7 @@ const CompanyProfile = () => {
         </div>
         <button
           type="submit"
-          className="w-40 mb-10 flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+          className="w-32 m-auto xl:m-0 mb-10 flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
         >
           Continue
         </button>

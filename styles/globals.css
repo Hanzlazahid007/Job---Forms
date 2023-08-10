@@ -25,3 +25,12 @@ body {
     )
     rgb(var(--background-start-rgb));
 } */
+input:focus{
+  border-color: blue;
+  outline: none;
+}
+@media (max-width: 1280px) {
+  input{
+    width: 90%;
+  }
+}

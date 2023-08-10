@@ -8,16 +8,16 @@ const Profeducation = () => {
     e.preventDefault();
   };
   return (
-    <div>
+    <div className="flex justify-center mt-6 ">
       <form onSubmit={HandleSubmit}>
         <h1 className="text-2xl font-semibold">Education</h1>
         <p className="text-sm text-[#777777]">
           {" "}
           please provide required information to log in.
         </p>
-        <div className="mt-4 flex justify-between">
-          <div className="mr-10">
-            <label className="block mb-6">
+        <div className="xl:mt-4 mt-4 xl:flex xl:justify-between">
+          <div className="xl:mr-10">
+            <label className="xl:block xl:mb-6">
               <span className="text-sm text-[#777777]">Highest Education</span>
 
               <input
@@ -26,9 +26,10 @@ const Profeducation = () => {
                 name="name"
                 className="
             block
-            w-96
+            xl:w-96
+            mb-2 xl:mb-0
             mt-1
-            border-gray-300
+               
             rounded-md
 
              p-2 bg-[#B4C7ED0D] border-[#2668E826] border-2
@@ -45,7 +46,9 @@ const Profeducation = () => {
                 required
                 className="
             block
-            w-96
+             xl:mb-0 -mb-3
+            xl:w-96
+            w-[16rem]
             mt-1
              p-2 bg-[#B4C7ED0D] border-[#2668E826] border-2
             rounded-md"
@@ -58,9 +61,9 @@ const Profeducation = () => {
             </label>
           </div>
         </div>
-        <div className="-mt-3 flex justify-between">
+        <div className="xl:-mt-3 xl:flex xl:justify-between">
           <div>
-            <label className="block mb-6">
+            <label className="xl:block xl:mb-6">
               <span className="text-sm text-[#777777]">Passing Out Year</span>
               <input
                 type="date"
@@ -68,9 +71,10 @@ const Profeducation = () => {
                 required
                 className="
             block
-            w-96
+            xl:w-96
             mt-1
-            border-gray-300
+            mb-2 xl:mb-0
+               
             rounded-md
 
              p-2 bg-[#B4C7ED0D] border-[#2668E826] border-2
@@ -80,7 +84,7 @@ const Profeducation = () => {
             </label>
           </div>
           <div>
-            <label className="block mb-6">
+            <label className="xl:block xl:mb-6">
               <span className="text-sm text-[#777777]">Grading System</span>
               <input
                 type="text"
@@ -88,9 +92,10 @@ const Profeducation = () => {
                 required
                 className="
             block
-            w-96
+            xl:w-96
             mt-1
-            border-gray-300
+            mb-2 xl:mb-0
+               
             rounded-md
 
              p-2 bg-[#B4C7ED0D] border-[#2668E826] border-2
@@ -102,7 +107,7 @@ const Profeducation = () => {
         </div>
 
         {/* =================== */}
-        <div className="-mt-4 flex justify-between">
+        <div className="xl:-mt-4 xl:flex xl:justify-between">
           <div>
             <label className="block mb-6">
               <span className="text-sm text-[#777777]">Marks</span>
@@ -114,8 +119,10 @@ const Profeducation = () => {
                 placeholder="marks"
                 className="
             block
-            w-96
+            xl:w-96
             mt-1
+            -mb-4 xl:mb-0
+            
             rounded-md
             file:bg-blue-600
             file:rounded-lg
@@ -126,8 +133,8 @@ const Profeducation = () => {
               />
             </label>
           </div>
-          <div className="ml-10">
-            <label className="block mb-6">
+          <div className="xl:ml-10">
+            <label className="xl:block xl:mb-6">
               <span className="text-sm text-[#777777]">Gender</span>
 
               <select
@@ -135,7 +142,9 @@ const Profeducation = () => {
                 required
                 className="
             block
-            w-96
+            xl:w-96
+            mb-6 xl:mb-0
+            w-[16rem]
             mt-1
              p-2 bg-[#B4C7ED0D] border-[#2668E826] border-2
             rounded-md"
@@ -149,7 +158,7 @@ const Profeducation = () => {
 
         <button
           type="submit"
-          className="w-32 mt-1 mb-10 flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+          className="w-32 m-auto xl:m-0 mt-1 mb-10 flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
         >
           Login
         </button>

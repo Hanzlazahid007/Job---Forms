@@ -8,7 +8,7 @@ const First = () => {
     <div>
       <Profbar3 />
       <div>
-        <div className="main absolute top-[5%] left-[32%]">
+        <div className="main xl:absolute xl:top-[5%] xl:left-[32%]">
           <div>
             <Profemp />
           </div>

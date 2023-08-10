@@ -6,7 +6,7 @@ const First = () => {
     <div>
       <Profbar5 />
       <div>
-        <div className="main absolute top-[15%] left-[32%]">
+        <div className="main xl:absolute xl:top-[15%] xl:left-[32%]">
           <div>
             <ProfCarrer />
           </div>
