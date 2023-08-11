@@ -1,5 +1,5 @@
-import Profother from "@/components/Profother";
-import Profbar6 from "@/components/Profbar6";
+import Profother from "@/pages/components/Profother";
+import Profbar6 from "@/pages/components/Profbar6";
 
 const First = () => {
   return (

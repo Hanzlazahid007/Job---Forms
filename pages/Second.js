@@ -1,6 +1,6 @@
-import CompanyProfile from "@/components/CompanyProfile";
-import Sidebar from "@/components/Sidebar";
-import Sidebar2 from "@/components/SIdebar2";
+import CompanyProfile from "@/pages/components/CompanyProfile";
+import Sidebar from "@/pages/components/Sidebar";
+import Sidebar2 from "@/pages/components/SIdebar2";
 import React from "react";
 
 const Second = () => {

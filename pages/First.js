@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Sidebar from "@/components/Sidebar";
-import Login from "@/components/Login";
+import Sidebar from "@/pages/components/Sidebar";
+import Login from "@/pages/components/Login";
 
 const First = () => {
   return (

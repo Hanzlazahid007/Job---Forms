@@ -1,5 +1,5 @@
-import Job from "@/components/Job";
-import Sidebar4 from "@/components/SIdebar4";
+import Job from "@/pages/components/Job";
+import Sidebar4 from "@/pages/components/SIdebar4";
 
 import React from "react";
 // import Sidebar from "../Components/Sidebar";

@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import Sidebar from "@/components/Sidebar";
+import Sidebar from "@/pages/components/Sidebar";
 
-import Fresheducation from "@/components/Fresheducation";
-import Freshsidebar2 from "@/components/Freshsidebae2";
+import Fresheducation from "@/pages/components/Fresheducation";
+import Freshsidebar2 from "@/pages/components/Freshsidebae2";
 
 const First = () => {
   return (

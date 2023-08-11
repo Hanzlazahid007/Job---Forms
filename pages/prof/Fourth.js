@@ -1,5 +1,5 @@
-import Profdetails from "@/components/Profdetail";
-import Profbar4 from "@/components/Profbar4";
+import Profdetails from "@/pages/components/Profdetail";
+import Profbar4 from "@/pages/components/Profbar4";
 
 const First = () => {
   return (
