@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import Sidebar from "@/Components/Sidebar";
+import Sidebar from "@/components/Sidebar";
 
-import Fresheducation from "@/Components/Fresheducation";
-import Freshsidebar3 from "@/Components/Freshsidebar3";
-import Freshdetails from "@/Components/Freshdetails";
+import Fresheducation from "@/components/Fresheducation";
+import Freshsidebar3 from "@/components/Freshsidebar3";
+import Freshdetails from "@/components/Freshdetails";
 
 const First = () => {
   return (

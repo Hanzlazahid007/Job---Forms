@@ -1,6 +1,6 @@
-import Profile from "@/Components/Profile";
-import Sidebar3 from "@/Components/SIdebar3";
-import Sidebar from "@/Components/Sidebar";
+import Profile from "@/components/Profile";
+import Sidebar3 from "@/components/SIdebar3";
+import Sidebar from "@/components/Sidebar";
 import React from "react";
 // import Sidebar from "../Components/Sidebar";
 // import Profile from "../Components/Profile";

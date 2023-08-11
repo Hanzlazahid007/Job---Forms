@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
-import Profemp from "@/Components/Profemp";
-import Profbar3 from "@/Components/Profbar3";
+import Profemp from "@/components/Profemp";
+import Profbar3 from "@/components/Profbar3";
 
 const First = () => {
   return (
